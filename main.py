@@ -1,7 +1,7 @@
 import hero
 from yaupload import YaUploader
 
-print(f"[INFO] Самый умный супергерой --> {hero.smart_hero()}")
+#print(f"[INFO] Самый умный супергерой --> {hero.smart_hero()}")
 
 if __name__ == '__main__':
     path_to_file = '/media/stirelshka/Рабочий/PyProj/NETOLOGY/Req_Http/UpFile/Python.jpg'

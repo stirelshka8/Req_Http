@@ -25,5 +25,3 @@ def smart_hero():
         dict_hero[list_id_key] = data_return['intelligence']\
     
     return max(dict_hero)
-
-print(f"Самый умный супергерой {smart_hero()}")

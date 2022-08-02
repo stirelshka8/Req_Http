@@ -17,7 +17,7 @@ class YaUploader:
         #print(self.work_url)
         self.create_path = self.file_name.strip('.jpg')
         #print(self.create_path)
-        self.upload_file = requests.put(self.work_url, data=self.file_name)
+        self.upload_file = requests.put(self.work_url, data=open(file_path, 'rb'))
         self.upload_file.raise_for_status()
 
 
